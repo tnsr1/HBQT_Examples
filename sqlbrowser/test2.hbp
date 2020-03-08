@@ -1,0 +1,34 @@
+#
+# $Id$
+#
+
+-3rd=hbide_version=1.0
+-3rd=hbide_title=test2
+-3rd=hbide_output=test2
+
+# HbIDE <Project>
+# HbIDE    <Version:2.0>
+# HbIDE       <GENERAL>
+# HbIDE          cProjPath        = C:/dev/HBQT/test2.hbp
+# HbIDE          cProjName        = Test2
+# HbIDE          cProjType        = Executable
+# HbIDE          cOutName         = test2
+# HbIDE          cGT              = gtWIN
+# HbIDE       </GENERAL>
+# HbIDE    </Version:2.0>
+# HbIDE </Project>
+
+
+-otest2
+
+-ic:\dev\qtcontribs\hbqt\qtsql\
+
+-Lc:\dev\lib\win\msvc64\
+
+c:\dev\qtcontribs\hbqt\hbqt.hbc
+c:\dev\qtcontribs\hbqt\qtsql\hbqtsql.hbc
+
+test2.prg
+browserwidget.ui
+
+ 
